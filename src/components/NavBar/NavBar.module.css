@@ -1,0 +1,65 @@
+.navbar {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0;
+  padding: 10px 1rem;
+  overflow-x: auto; /* permite rolar horizontalmente */
+  overflow-y: hidden;
+  white-space: nowrap; /* impede quebra de linha */
+  scroll-behavior: smooth; /* rolagem suave */
+  -webkit-overflow-scrolling: touch; /* melhora no mobile */
+}
+
+/* Esconde a barra de rolagem, mas mantém a rolagem funcional */
+.navbar::-webkit-scrollbar {
+  display: none;
+}
+.navbar {
+  scrollbar-width: none; /* Firefox */
+}
+
+.tagButton {
+  background-color: var(--cor-bg);
+  color: var(--cor-principal);
+  border: 1px solid var(--cor-principal);
+  border-radius: 30px;
+  font-weight: 700;
+  padding: 10px 18px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: 0.3s;
+  white-space: nowrap; /* impede quebra do texto dentro */
+  flex-shrink: 0; /* evita encolhimento do botão */
+}
+
+.tagButton:hover {
+  background-color: var(--cor-principal);
+  color: var(--cor-bg);
+}
+
+.active {
+  background-color: var(--cor-principal);
+  color: var(--cor-bg);
+}
+
+/* 📱 Ajustes para telas menores */
+@media (max-width: 768px) {
+  .navbar {
+    gap: 10px;
+    padding: 8px 0.8rem;
+  }
+
+  .tagButton {
+    font-size: 0.85rem;
+    padding: 8px 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tagButton {
+    font-size: 0.8rem;
+    padding: 7px 12px;
+  }
+}

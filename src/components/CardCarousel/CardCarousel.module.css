@@ -1,0 +1,82 @@
+.section {
+  margin: 2rem 0;
+  padding: 0 0.3rem 0 2rem;
+}
+
+.titulo {
+  color: var(--cor-principal);
+  font-size: 1.4rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  border-left: 4px solid var(--cor-principal);
+  padding-left: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.carousel {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 1rem;
+  scroll-snap-type: x mandatory; /* para travar os cards durante o scroll */
+}
+
+/* Cada card dentro do carrossel */
+.carousel > * {
+  flex: 0 0 auto; /* impede que os cards encolham */
+  scroll-snap-align: start;
+}
+
+/* Barra de rolagem estilizada */
+.carousel::-webkit-scrollbar {
+  height: 6px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+  background: var(--cor-principal);
+  border-radius: 4px;
+}
+
+.carousel::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+/* 🔥 Opção: se quiser esconder completamente a barra */
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel {
+  scrollbar-width: none; /* Firefox */
+}
+
+/* 📱 Responsividade */
+@media (max-width: 768px) {
+  .section {
+    padding: 0 0.3rem 0 1rem;
+  }
+
+  .titulo {
+    font-size: 1.2rem;
+  }
+
+  .carousel {
+    gap: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo {
+    font-size: 1rem;
+  }
+
+  .carousel {
+    gap: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
+}

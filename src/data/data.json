@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "nome": "Coral Universitário",
+    "tipo": "Cultural",
+    "curso": "Ciência da Computação",
+    "descricao": "Grupo musical formado por alunos e professores da universidade.",
+    "coordenador": "Profa. Maria Clara",
+    "imagemPrincipal": "/img/coral.jpg",
+    "galeria": ["/img/coral1.jpg", "/img/coral2.jpg"],
+    "links": {
+      "instagram": "https://instagram.com/coraluniv"
+    }
+  },
+  {
+    "id": 2,
+    "nome": "CompCultura",
+    "tipo": "Cultural",
+    "curso": "Ciência da Computação",
+    "descricao": "Grupo cultural que organiza eventos e exposições de arte digital.",
+    "coordenador": "Profa. Luiza Lima",
+    "imagemPrincipal": "/img/compcultura.jpg",
+    "galeria": [],
+    "links": {
+      "instagram": "https://instagram.com/compcultura"
+    }
+  },
+  {
+    "id": 3,
+    "nome": "PET Computação",
+    "tipo": "Extensão",
+    "curso": "Ciência da Computação",
+    "descricao": "Grupo de ensino, pesquisa e extensão que promove ações acadêmicas e culturais.",
+    "coordenador": "Prof. Carlos Souza",
+    "imagemPrincipal": "/img/petcomputacao.jpg",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 4,
+    "nome": "CodeLab",
+    "tipo": "Extensão",
+    "curso": "Ciência da Computação",
+    "descricao": "Laboratório estudantil focado em inovação e desenvolvimento de software livre.",
+    "coordenador": "Prof. Rafael Duarte",
+    "imagemPrincipal": "/img/codelab.jpg",
+    "galeria": [],
+    "links": {
+      "site": "https://codelab.univ.br"
+    }
+  },
+  {
+    "id": 5,
+    "nome": "Byte Jr.",
+    "tipo": "Empresa Júnior",
+    "curso": "Ciência da Computação",
+    "descricao": "Empresa júnior que desenvolve soluções web e mobile.",
+    "coordenador": "Profa. Ana Beatriz",
+    "imagemPrincipal": "/img/bytejr.jpg",
+    "galeria": [],
+    "links": {
+      "instagram": "https://instagram.com/bytejr"
+    }
+  },
+  {
+    "id": 6,
+    "nome": "CompTech",
+    "tipo": "Empresa Júnior",
+    "curso": "Ciência da Computação",
+    "descricao": "Empresa júnior especializada em automação e IA.",
+    "coordenador": "Prof. Daniel Rezende",
+    "imagemPrincipal": "/img/comptech.jpg",
+    "galeria": [],
+    "links": {
+      "instagram": "https://instagram.com/comptechjr"
+    }
+  },
+  {
+    "id": 7,
+    "nome": "Semana da Computação",
+    "tipo": "Evento",
+    "curso": "Ciência da Computação",
+    "descricao": "Evento anual com palestras, minicursos e competições de programação.",
+    "coordenador": "Profa. Laura Mendes",
+    "imagemPrincipal": "/img/secomp.jpg",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 8,
+    "nome": "HackaComp",
+    "tipo": "Evento",
+    "curso": "Ciência da Computação",
+    "descricao": "Hackathon universitário para desenvolver soluções tecnológicas em 48h.",
+    "coordenador": "Prof. Igor Almeida",
+    "imagemPrincipal": "/img/hackacomp.jpg",
+    "galeria": [],
+    "links": {}
+  },
+
+  {
+    "id": 9,
+    "nome": "SoftArt",
+    "tipo": "Cultural",
+    "curso": "Engenharia de Software",
+    "descricao": "Grupo que une arte digital e programação criativa.",
+    "coordenador": "Profa. Júlia Tavares",
+    "imagemPrincipal": "/img/softart.jpg",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 10,
+    "nome": "DevSound",
+    "tipo": "Cultural",
+    "curso": ["Engenharia de Software", "Ciência da Computação"],
+    "descricao": "Coletivo de estudantes que produzem música eletrônica e trilhas sonoras.",
+    "coordenador": "Prof. Henrique Souza",
+    "imagemPrincipal": "/img/devsound.jpg",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 11,
+    "nome": "SoftTech Jr.",
+    "tipo": "Empresa Júnior",
+    "curso": "Engenharia de Software",
+    "descricao": "Empresa júnior focada em desenvolvimento de sistemas personalizados.",
+    "coordenador": "Profa. Amanda Torres",
+    "imagemPrincipal": "/img/softtechjr.jpg",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 12,
+    "nome": "CodeWorks",
+    "tipo": "Empresa Júnior",
+    "curso": "Engenharia de Software",
+    "descricao": "Empresa júnior que atua com consultoria em qualidade de software.",
+    "coordenador": "Prof. Felipe Araújo",
+    "imagemPrincipal": "/img/codeworks.jpg",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 13,
+    "nome": "PET Software",
+    "tipo": "Extensão",
+    "curso": "Engenharia de Software",
+    "descricao": "Grupo de estudos que promove oficinas e mentorias sobre boas práticas de desenvolvimento.",
+    "coordenador": "Profa. Vanessa Silva",
+    "imagemPrincipal": "/img/petsoftware.jpg",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 14,
+    "nome": "Workshop de Engenharia de Software",
+    "tipo": "Evento",
+    "curso": "Engenharia de Software",
+    "descricao": "Encontro de estudantes e profissionais da área para troca de experiências.",
+    "coordenador": "Prof. Gustavo Lima",
+    "imagemPrincipal": "/img/wesoft.jpg",
+    "galeria": [],
+    "links": {}
+  },
+
+  {
+    "id": 15,
+    "nome": "InovaleJr",
+    "tipo": "Empresa Júnior",
+    "curso": "Engenharia de Produção",
+    "descricao": "A Inovale Jr é uma empresa de consultoria em gestão empresarial e soluções mecânicas, constituída e gerida exclusivamente por alunos de graduação dos cursos de Engenharia de Produção e Engenharia Mecânica da Universidade Federal do Ceará - Campus Russas. Desenvolvemos projetos e prestamos serviços para empresas, com foco total no cliente, buscando crescer seu negócio para impactar cada vez mais pessoas.",
+    "coordenador": "Profa. Marina Costa",
+    "imagemPrincipal": "/img/inovalejr.png",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 16,
+    "nome": "Gestão em Foco",
+    "tipo": "Extensão",
+    "curso": "Engenharia de Produção",
+    "descricao": "Projeto voltado à aplicação de ferramentas de gestão em empresas locais.",
+    "coordenador": "Prof. Bruno Fernandes",
+    "imagemPrincipal": "/img/gestaoemfoco.jpg",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 17,
+    "nome": "Semana da Produção",
+    "tipo": "Evento",
+    "curso": "Engenharia de Produção",
+    "descricao": "Evento anual com palestras e minicursos sobre engenharia de produção.",
+    "coordenador": "Profa. Lúcia Moreira",
+    "imagemPrincipal": "/img/semapro.jpg",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 18,
+    "nome": "Produção e Arte",
+    "tipo": "Cultural",
+    "curso": "Engenharia de Produção",
+    "descricao": "Projeto cultural que integra design e produção sustentável.",
+    "coordenador": "Profa. Aline Rocha",
+    "imagemPrincipal": "/img/prodarte.jpg",
+    "galeria": [],
+    "links": {}
+  },
+
+  {
+    "id": 19,
+    "nome": "Mec Jr.",
+    "tipo": "Empresa Júnior",
+    "curso": "Engenharia Mecânica",
+    "descricao": "Empresa júnior especializada em projetos mecânicos e manutenção.",
+    "coordenador": "Prof. Ricardo Nunes",
+    "imagemPrincipal": "/img/mecjr.jpg",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 20,
+    "nome": "PET Mecânica",
+    "tipo": "Extensão",
+    "curso": "Engenharia Mecânica",
+    "descricao": "Grupo de extensão focado em pesquisa e inovação em sistemas mecânicos.",
+    "coordenador": "Profa. Clara Vieira",
+    "imagemPrincipal": "/img/petmecanica.jpg",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 21,
+    "nome": "AutoFest",
+    "tipo": "Evento",
+    "curso": "Engenharia Mecânica",
+    "descricao": "Exposição de projetos automotivos e competições de protótipos.",
+    "coordenador": "Prof. Eduardo Rocha",
+    "imagemPrincipal": "/img/autofest.jpg",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 22,
+    "nome": "MetalArte",
+    "tipo": "Cultural",
+    "curso": "Engenharia Mecânica",
+    "descricao": "Projeto que une engenharia e escultura em metal reciclado.",
+    "coordenador": "Profa. Tânia Ribeiro",
+    "imagemPrincipal": "/img/metalarte.jpg",
+    "galeria": [],
+    "links": {}
+  },
+
+  {
+    "id": 23,
+    "nome": "Civ Jr.",
+    "tipo": "Empresa Júnior",
+    "curso": "Engenharia Civil",
+    "descricao": "Empresa júnior voltada para projetos de infraestrutura e edificações.",
+    "coordenador": "Prof. João Almeida",
+    "imagemPrincipal": "/img/civjr.jpg",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 24,
+    "nome": "PET Civil",
+    "tipo": "Extensão",
+    "curso": "Engenharia Civil",
+    "descricao": "Grupo que desenvolve projetos de extensão em sustentabilidade e urbanismo.",
+    "coordenador": "Profa. Patrícia Barros",
+    "imagemPrincipal": "/img/petcivil.jpg",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 25,
+    "nome": "Semana da Engenharia Civil",
+    "tipo": "Evento",
+    "curso": "Engenharia Civil",
+    "descricao": "Evento que reúne palestras e exposições sobre inovação na construção civil.",
+    "coordenador": "Prof. Sérgio Lima",
+    "imagemPrincipal": "/img/secivil.jpg",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 26,
+    "nome": "Arte Concreta",
+    "tipo": "Cultural",
+    "curso": "Engenharia Civil",
+    "descricao": "Projeto artístico que utiliza materiais de construção em esculturas.",
+    "coordenador": "Profa. Bianca Alves",
+    "imagemPrincipal": "/img/arteconcreta.jpg",
+    "galeria": [],
+    "links": {}
+  }
+]
