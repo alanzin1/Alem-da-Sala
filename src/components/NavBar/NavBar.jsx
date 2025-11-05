@@ -1,5 +1,4 @@
-import { useState } from "react";
-import styles from "./Navbar.module.css";
+import styles from "./NavBar.module.css";
 
 export default function NavBar({ tags, selectedTags, onFilterChange }) {
   const handleTagClick = (tag) => {
