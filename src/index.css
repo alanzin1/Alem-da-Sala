@@ -2,6 +2,14 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   --cor-bg: #f3f3f3;
   --cor-principal: #10367d;
+
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  outline: none;
 }
 * {
   margin: 0;
