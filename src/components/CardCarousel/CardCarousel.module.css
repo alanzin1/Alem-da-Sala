@@ -1,6 +1,7 @@
 .section {
   margin: 2rem 0;
-  padding: 0 0.3rem 0 2rem;
+  padding: 0 2rem 0 2rem;
+  position: relative;
 }
 
 .titulo {
@@ -14,6 +15,12 @@
   letter-spacing: 1px;
 }
 
+.carouselContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
 .carousel {
   display: flex;
   gap: 1rem;
@@ -23,39 +30,58 @@
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
   padding-bottom: 1rem;
-  scroll-snap-type: x mandatory; /* para travar os cards durante o scroll */
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
 }
 
-/* Cada card dentro do carrossel */
-.carousel > * {
-  flex: 0 0 auto; /* impede que os cards encolham */
-  scroll-snap-align: start;
-}
-
-/* Barra de rolagem estilizada */
-.carousel::-webkit-scrollbar {
-  height: 6px;
-}
-
-.carousel::-webkit-scrollbar-thumb {
-  background: var(--cor-principal);
-  border-radius: 4px;
-}
-
-.carousel::-webkit-scrollbar-track {
-  background: #1a1a1a;
-}
-
-/* 🔥 Opção: se quiser esconder completamente a barra */
 .carousel::-webkit-scrollbar {
   display: none;
 }
-.carousel {
-  scrollbar-width: none; /* Firefox */
+
+.carousel > * {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
 }
 
-/* 📱 Responsividade */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  font-size: 1.6rem;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  will-change: transform;
+  transition: all 0.3s ease;
+}
+
+.arrow:hover {
+  background: var(--cor-principal);
+  transform: translateY(-50%) scale(1.02);
+}
+
+.leftArrow {
+  left: -1rem;
+}
+
+.rightArrow {
+  right: -1rem;
+}
+
 @media (max-width: 768px) {
+  .arrow {
+    display: none;
+  }
+
   .section {
     padding: 0 0.3rem 0 1rem;
   }
