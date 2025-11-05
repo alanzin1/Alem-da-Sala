@@ -1,8 +1,14 @@
+import { useNavigate } from "react-router-dom";
 import styles from "./Card.module.css";
 
 export default function Card({ projeto }) {
+  const navigate = useNavigate();
+
   return (
-    <div className={styles.card}>
+    <div
+      className={styles.card}
+      onClick={() => navigate(`/detalhes/${projeto.id}`)}
+    >
       <img
         src={projeto.imagemPrincipal}
         alt={projeto.nome}
