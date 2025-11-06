@@ -11,7 +11,6 @@ export default function NavBar({ tags, selectedTags, onFilterChange }) {
       ? selectedTags.filter((t) => t !== tag)
       : [...selectedTags, tag];
 
-    // Garante que "Todos" sempre esteja presente
     if (!updatedTags.includes("Todos")) {
       updatedTags = ["Todos", ...updatedTags];
     }

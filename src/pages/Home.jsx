@@ -31,24 +31,20 @@ export default function Home() {
   useEffect(() => {
     let filtered = data;
 
-    // 🔍 Filtro por texto
     if (searchTerm.trim() !== "") {
       filtered = filtered.filter((p) =>
         p.nome.toLowerCase().includes(searchTerm.toLowerCase())
       );
     }
 
-    // 🎯 Filtro de tags combinadas (interseção)
     const activeFilters = selectedTags.filter((t) => t !== "Todos");
 
     if (activeFilters.length > 0) {
       filtered = filtered.filter((p) =>
         activeFilters.every((tag) => {
-          // transforma curso e tags em arrays para garantir compatibilidade
           const cursos = Array.isArray(p.curso) ? p.curso : [p.curso];
           const tagsAtividade = Array.isArray(p.tags) ? p.tags : [];
 
-          // junta tipo, cursos e tags em um único array para verificar
           const campos = [p.tipo, ...cursos, ...tagsAtividade];
 
           return campos.some(
@@ -63,7 +59,6 @@ export default function Home() {
     setFilteredData(filtered);
   }, [searchTerm, selectedTags]);
 
-  // Agrupa por tipo
   const categorias = [...new Set(filteredData.map((p) => p.tipo))];
 
   return (

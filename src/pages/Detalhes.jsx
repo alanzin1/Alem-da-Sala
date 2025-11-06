@@ -18,7 +18,7 @@ export default function Detalhes() {
     return <p>Projeto não encontrado.</p>;
   }
 
-  const { nome, descricao, coordenador, imagemPrincipal, galeria, links } =
+  const { nome, descricao, coordenadores, imagemPrincipal, galeria, links } =
     projeto;
 
   return (
@@ -42,29 +42,29 @@ export default function Detalhes() {
         <p>{descricao}</p>
       </section>
 
-      {/* Coordenador */}
-      {coordenador && (
-        <section className={styles.coordenador}>
-          <h2>Coordenador</h2>
-          <div className={styles.perfil}>
-            {coordenador.foto ? (
-              <img
-                src={coordenador.foto}
-                alt={coordenador.nome}
-                className={styles.avatar}
-              />
-            ) : (
-              <div className={styles.avatarPlaceholder}>
-                <span>👤</span>
+      {/* Coordenadores */}
+      {coordenadores && coordenadores.length > 0 && (
+        <section className={styles.coordenadorcon}>
+          <h2>Coordenadores</h2>
+          <section className={styles.coordenador}>
+            {coordenadores.map((c, index) => (
+              <div className={styles.perfil} key={index}>
+                {c.foto ? (
+                  <img src={c.foto} alt={c.nome} className={styles.avatar} />
+                ) : (
+                  <div className={styles.avatarPlaceholder}>
+                    <span>👤</span>
+                  </div>
+                )}
+                <div>
+                  <p>
+                    <b>{c.categoria}</b>
+                  </p>
+                  <p>{c.nome}</p>
+                </div>
               </div>
-            )}
-            <div>
-              <p>
-                <b>{coordenador.categoria}</b>
-              </p>
-              <p>{coordenador.nome}</p>
-            </div>
-          </div>
+            ))}
+          </section>
         </section>
       )}
 
@@ -112,7 +112,7 @@ export default function Detalhes() {
                 rel="noopener noreferrer"
                 className={styles.linkedin}
               >
-                <FaLinkedin /> linkedin
+                <FaLinkedin /> LinkedIn
               </a>
             )}
             {links.youtube && (

@@ -6,7 +6,6 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.content}>
-        {/* Área da logo e descrição */}
         <div className={styles.logoArea}>
           <img src={logo} alt="Logo Além da Sala" className={styles.logo} />
           <p>
@@ -16,7 +15,6 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Contatos */}
         <div className={styles.contact}>
           <a href="mailto:alemdasala@gmail.com" className={styles.link}>
             <FaEnvelope /> alemdasala@gmail.com
@@ -32,7 +30,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Rodapé inferior */}
       <p className={styles.copy}>
         © 2025 Além da Sala — Universidade Federal do Ceará
       </p>

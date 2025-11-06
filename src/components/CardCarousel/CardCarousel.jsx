@@ -10,7 +10,6 @@ export default function CardCarousel({ titulo, projetos }) {
 
   if (projetos.length === 0) return null;
 
-  // Funções de scroll
   const scrollLeft = () => {
     carouselRef.current.scrollBy({ left: -300, behavior: "smooth" });
   };
@@ -19,7 +18,6 @@ export default function CardCarousel({ titulo, projetos }) {
     carouselRef.current.scrollBy({ left: 300, behavior: "smooth" });
   };
 
-  // Atualiza visibilidade das setas conforme posição do scroll
   const updateArrows = () => {
     const el = carouselRef.current;
     if (!el) return;
@@ -31,7 +29,6 @@ export default function CardCarousel({ titulo, projetos }) {
     setShowRight(canScrollRight);
   };
 
-  // Checa ao montar e quando a janela for redimensionada
   useEffect(() => {
     const el = carouselRef.current;
     if (!el) return;

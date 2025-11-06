@@ -170,11 +170,18 @@
     "tipo": "Empresa Júnior",
     "curso": "Engenharia de Produção",
     "descricao": "A Inovale Jr é uma empresa de consultoria em gestão empresarial e soluções mecânicas, constituída e gerida exclusivamente por alunos de graduação dos cursos de Engenharia de Produção e Engenharia Mecânica da Universidade Federal do Ceará - Campus Russas. Desenvolvemos projetos e prestamos serviços para empresas, com foco total no cliente, buscando crescer seu negócio para impactar cada vez mais pessoas.",
-    "coordenador": {
-      "nome": "Rafael Ivo",
-      "categoria": "Professor",
-      "foto": "/img/ivo.jpg"
-    },
+    "coordenadores": [
+      {
+        "nome": "Rafael Ivo",
+        "categoria": "Professor",
+        "foto": "/img/ivo.jpg"
+      },
+      {
+        "nome": "Maria Clara",
+        "categoria": "Aluna",
+        "foto": "/img/ivo.jpg"
+      }
+    ],
     "imagemPrincipal": "/img/inovalejr.png",
     "galeria": [
       "/img/inovalejr.png",
