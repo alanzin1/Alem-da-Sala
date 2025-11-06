@@ -11,6 +11,7 @@
   gap: 1rem;
 }
 
+/* Logo */
 .logoContainer {
   height: 60px;
   flex-shrink: 0;
@@ -23,7 +24,9 @@
   filter: brightness(0.7) contrast(2);
 }
 
+/* Barra de busca */
 .searchContainer {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -33,6 +36,7 @@
 
 .searchInput {
   padding: 0.6rem 1rem;
+  padding-right: 2.5rem; /* espaço para o ícone */
   border-radius: 8px;
   border: 1px solid #00000025;
   background-color: #00000005;
@@ -47,6 +51,21 @@
   border-color: var(--cor-principal);
 }
 
+/* Ícone da lupa */
+.searchIcon {
+  position: absolute;
+  right: 0.9rem;
+  color: var(--cor-principal);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.searchIcon:hover {
+  color: var(--cor-principal);
+}
+
+/* Responsividade */
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
@@ -68,11 +87,20 @@
     max-width: 100%;
     width: 90%;
   }
+
+  .searchIcon {
+    right: calc(5% + 0.5rem);
+  }
 }
 
 @media (max-width: 480px) {
   .searchInput {
     font-size: 0.9rem;
     padding: 0.5rem 0.8rem;
+    padding-right: 2rem;
+  }
+
+  .searchIcon {
+    font-size: 0.9rem;
   }
 }

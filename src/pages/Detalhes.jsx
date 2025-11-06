@@ -3,8 +3,8 @@ import data from "../data/data.json";
 import styles from "./Detalhes.module.css";
 import {
   FaInstagram,
-  FaFacebook,
   FaGlobe,
+  FaLinkedin,
   FaYoutube,
   FaChevronLeft,
 } from "react-icons/fa";
@@ -105,14 +105,14 @@ export default function Detalhes() {
                 <FaGlobe /> Website
               </a>
             )}
-            {links.facebook && (
+            {links.linkedin && (
               <a
-                href={links.facebook}
+                href={links.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={styles.facebook}
+                className={styles.linkedin}
               >
-                <FaFacebook /> Facebook
+                <FaLinkedin /> linkedin
               </a>
             )}
             {links.youtube && (

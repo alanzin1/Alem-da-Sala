@@ -1,5 +1,7 @@
+import { FaSearch } from "react-icons/fa";
 import styles from "./Header.module.css";
 import logo from "../../assets/logo.png";
+
 export default function Header({ searchTerm, setSearchTerm }) {
   return (
     <header className={styles.header}>
@@ -15,6 +17,7 @@ export default function Header({ searchTerm, setSearchTerm }) {
           onChange={(e) => setSearchTerm(e.target.value)}
           className={styles.searchInput}
         />
+        <FaSearch className={styles.searchIcon} />
       </div>
     </header>
   );

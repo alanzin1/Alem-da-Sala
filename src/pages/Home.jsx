@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import Header from "../components/Header/Header";
 import NavBar from "../components/NavBar/NavBar";
 import CardCarousel from "../components/CardCarousel/CardCarousel";
+import styles from "./Home.module.css";
+
 import data from "../data/data.json";
 
 export default function Home() {
@@ -73,7 +75,7 @@ export default function Home() {
         onFilterChange={handleFilterChange}
       />
 
-      <main>
+      <main className={styles.home}>
         {categorias.map((cat) => {
           const projetosCategoria = filteredData.filter((p) => p.tipo === cat);
           return (
