@@ -10,6 +10,7 @@
   white-space: nowrap;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
+  touch-action: manipulation;
 }
 
 .navbar::-webkit-scrollbar {
@@ -31,6 +32,7 @@
   transition: 0.3s;
   white-space: nowrap;
   flex-shrink: 0;
+  touch-action: manipulation;
 }
 
 .tagButton:hover {

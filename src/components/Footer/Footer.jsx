@@ -9,7 +9,7 @@ export default function Footer() {
         <div className={styles.logoArea}>
           <img src={logo} alt="Logo Além da Sala" className={styles.logo} />
           <p>
-            Central de atividades extracurriculares
+            Vitrine de atividades extracurriculares
             <br />
             da UFC — Campus de Russas
           </p>
