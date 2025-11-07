@@ -1,103 +1,284 @@
 [
   {
     "id": 1,
-    "nome": "Coral Universitário",
+    "nome": "Agentes de Cultura",
     "tipo": "Cultural",
-    "curso": "Ciência da Computação",
-    "descricao": "Grupo musical formado por alunos e professores da universidade.",
-    "coordenador": "Profa. Maria Clara",
-    "imagemPrincipal": "/img/coral.jpg",
-    "galeria": ["/img/coral1.jpg", "/img/coral2.jpg"],
+    "curso": [
+      "Engenharia de Software",
+      "Ciência da Computação",
+      "Engenharia de Produção",
+      "Engenharia Civil",
+      "Engenharia Mecânica"
+    ],
+    "descricao": "O Clube do Improviso foi idealizado como um espaço para que os alunos desenvolvam suas habilidades sociais, incluindo oratória, expressão corporal e autoestima. Para muitos participantes, o projeto representa mais do que um simples treinamento — é também uma forma de descontração e alívio da rotina acadêmica. As atividades do clube envolvem técnicas de movimento, comunicação, pensamento rápido, estímulos sociais e dinâmicas competitivas. Nossos integrantes dedicam-se ao estudo e à preparação de cada encontro, planejando atividades práticas que promovem a interação e o aprimoramento coletivo. O Clube do Improviso convida todos os interessados a participar e descobrir, na prática, o poder da criatividade e da espontaneidade.",
+    "coordenadores": [
+      {
+        "nome": "Rafael Ivo",
+        "categoria": "Professor",
+        "foto": "/img/ivo.jpg"
+      },
+      {
+        "nome": "Maria Clara",
+        "categoria": "Aluna",
+        "foto": "/img/ivo.jpg"
+      }
+    ],
+    "imagemPrincipal": "/img/inovalejr.png",
+    "galeria": [
+      "/img/inovalejr.png",
+      "/img/inovalejr.png",
+      "/img/inovalejr.png",
+      "/img/inovalejr.png"
+    ],
     "links": {
-      "instagram": "https://instagram.com/coraluniv"
+      "instagram": "https://www.instagram.com/clubedoimproviso/"
     }
   },
   {
     "id": 2,
-    "nome": "CompCultura",
+    "nome": "Clube do Improviso",
     "tipo": "Cultural",
-    "curso": "Ciência da Computação",
-    "descricao": "Grupo cultural que organiza eventos e exposições de arte digital.",
-    "coordenador": "Profa. Luiza Lima",
-    "imagemPrincipal": "/img/compcultura.jpg",
-    "galeria": [],
+    "curso": [
+      "Engenharia de Software",
+      "Ciência da Computação",
+      "Engenharia de Produção",
+      "Engenharia Civil",
+      "Engenharia Mecânica"
+    ],
+    "descricao": "O Clube do Improviso foi idealizado como um espaço para que os alunos desenvolvam suas habilidades sociais, incluindo oratória, expressão corporal e autoestima. Para muitos participantes, o projeto representa mais do que um simples treinamento — é também uma forma de descontração e alívio da rotina acadêmica. As atividades do clube envolvem técnicas de movimento, comunicação, pensamento rápido, estímulos sociais e dinâmicas competitivas. Nossos integrantes dedicam-se ao estudo e à preparação de cada encontro, planejando atividades práticas que promovem a interação e o aprimoramento coletivo. O Clube do Improviso convida todos os interessados a participar e descobrir, na prática, o poder da criatividade e da espontaneidade.",
+    "coordenadores": [
+      {
+        "nome": "Rafael Ivo",
+        "categoria": "Professor",
+        "foto": "/img/ivo.jpg"
+      },
+      {
+        "nome": "Maria Clara",
+        "categoria": "Aluna",
+        "foto": "/img/ivo.jpg"
+      }
+    ],
+    "imagemPrincipal": "/img/inovalejr.png",
+    "galeria": [
+      "/img/inovalejr.png",
+      "/img/inovalejr.png",
+      "/img/inovalejr.png",
+      "/img/inovalejr.png"
+    ],
     "links": {
-      "instagram": "https://instagram.com/compcultura"
+      "instagram": "https://www.instagram.com/clubedoimproviso/"
     }
   },
   {
     "id": 3,
-    "nome": "PET Computação",
-    "tipo": "Extensão",
-    "curso": "Ciência da Computação",
-    "descricao": "Grupo de ensino, pesquisa e extensão que promove ações acadêmicas e culturais.",
-    "coordenador": "Prof. Carlos Souza",
-    "imagemPrincipal": "/img/petcomputacao.jpg",
-    "galeria": [],
-    "links": {}
+    "nome": "LabSoci",
+    "tipo": "Cultural",
+    "curso": [
+      "Engenharia de Software",
+      "Ciência da Computação",
+      "Engenharia de Produção",
+      "Engenharia Civil",
+      "Engenharia Mecânica"
+    ],
+    "descricao": "O LabSoci é um projeto cultural que utiliza o sociodrama como ferramentas para estimular o pensamento crítico, promover debates sociais e desenvolver a expressão coletiva. Nosso objetivo é criar um espaço de experimentação e aprendizado, onde participantes possam explorar problemáticas sociais por meio da arte e do teatro interativo.",
+    "coordenadores": [
+      {
+        "nome": "Rafael Ivo",
+        "categoria": "Professor",
+        "foto": "/img/ivo.jpg"
+      },
+      {
+        "nome": "Maria Clara",
+        "categoria": "Aluna",
+        "foto": "/img/ivo.jpg"
+      }
+    ],
+    "imagemPrincipal": "/img/inovalejr.png",
+    "galeria": [
+      "/img/inovalejr.png",
+      "/img/inovalejr.png",
+      "/img/inovalejr.png",
+      "/img/inovalejr.png"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/labsoci/"
+    }
   },
   {
     "id": 4,
-    "nome": "CodeLab",
-    "tipo": "Extensão",
-    "curso": "Ciência da Computação",
-    "descricao": "Laboratório estudantil focado em inovação e desenvolvimento de software livre.",
-    "coordenador": "Prof. Rafael Duarte",
-    "imagemPrincipal": "/img/codelab.jpg",
-    "galeria": [],
+    "nome": "Forró no Campus",
+    "tipo": "Cultural",
+    "curso": [
+      "Engenharia de Software",
+      "Ciência da Computação",
+      "Engenharia de Produção",
+      "Engenharia Civil",
+      "Engenharia Mecânica"
+    ],
+    "descricao": "O Forró no Campus é um Projeto de Extensão da UFC Campus Russas no qual alunos, servidores e membros da comunidade podem aprender a dançar forró e outros ritmos de dança. Seu principal objetivo é proporcionar momentos de leveza, alegria e companheirismo entre a comunidade.",
+    "coordenadores": [
+      {
+        "nome": "Rafael Ivo",
+        "categoria": "Professor",
+        "foto": "/img/ivo.jpg"
+      },
+      {
+        "nome": "Maria Clara",
+        "categoria": "Aluna",
+        "foto": "/img/ivo.jpg"
+      }
+    ],
+    "imagemPrincipal": "/img/inovalejr.png",
+    "galeria": [
+      "/img/inovalejr.png",
+      "/img/inovalejr.png",
+      "/img/inovalejr.png",
+      "/img/inovalejr.png"
+    ],
     "links": {
-      "site": "https://codelab.univ.br"
+      "instagram": "https://www.instagram.com/forronocampus.ufcrussas/"
     }
   },
   {
     "id": 5,
-    "nome": "Byte Jr.",
-    "tipo": "Empresa Júnior",
-    "curso": "Ciência da Computação",
-    "descricao": "Empresa júnior que desenvolve soluções web e mobile.",
-    "coordenador": "Profa. Ana Beatriz",
-    "imagemPrincipal": "/img/bytejr.jpg",
-    "galeria": [],
+    "nome": "GLAM",
+    "tipo": "Cultural",
+    "curso": [
+      "Engenharia de Software",
+      "Ciência da Computação",
+      "Engenharia de Produção",
+      "Engenharia Civil",
+      "Engenharia Mecânica"
+    ],
+    "descricao": "O Grupo de Leitura Abertamente (GLAM) é um projeto de extensão da UFC – Campus de Russas fundado em 2019 com o desejo de incentivar o hábito da leitura e promover a integração cultural. Nosso grupo é aberto e inclusivo, reunindo alunos, professores, servidores e toda a comunidade de Russas. O GLAM transforma a leitura em um caminho para o crescimento pessoal e a descoberta de novos horizontes. Nós nos tornamos um ponto de encontro de ideias, onde a leitura se transforma em diálogo, experiência e descoberta. A cada mês, exploramos obras de diferentes estilos, autores e temas, nacionais e internacionais, sempre buscando ampliar horizontes e fazer com que os participantes explorem perspectivas variadas. Nossa dinâmica é simples e inclusiva. Todo mês, definimos um tema e os próprios participantes dão sugestões de livros sobre ele. A obra que vamos debater é sempre definida por votação lá no nosso grupo do WhatsApp. Para o nosso bate-papo, o encontro rola na última terça-feira do mês, às 12h30, dentro das 'Terças Culturais', em um formato bem acolhedor de roda de conversa.",
+    "coordenadores": [
+      {
+        "nome": "Rafael Ivo",
+        "categoria": "Professor",
+        "foto": "/img/ivo.jpg"
+      },
+      {
+        "nome": "Maria Clara",
+        "categoria": "Aluna",
+        "foto": "/img/ivo.jpg"
+      }
+    ],
+    "imagemPrincipal": "/img/inovalejr.png",
+    "galeria": [
+      "/img/inovalejr.png",
+      "/img/inovalejr.png",
+      "/img/inovalejr.png",
+      "/img/inovalejr.png"
+    ],
     "links": {
-      "instagram": "https://instagram.com/bytejr"
+      "instagram": "https://www.instagram.com/unierpg/"
     }
   },
   {
     "id": 6,
-    "nome": "CompTech",
-    "tipo": "Empresa Júnior",
-    "curso": "Ciência da Computação",
-    "descricao": "Empresa júnior especializada em automação e IA.",
-    "coordenador": "Prof. Daniel Rezende",
-    "imagemPrincipal": "/img/comptech.jpg",
-    "galeria": [],
+    "nome": "UNI&RPG",
+    "tipo": "Cultural",
+    "curso": [
+      "Engenharia de Software",
+      "Ciência da Computação",
+      "Engenharia de Produção",
+      "Engenharia Civil",
+      "Engenharia Mecânica"
+    ],
+    "descricao": "Sejam bem-vindos ao UNI&RPG! 🎲✨ Nosso projeto é um espaço inclusivo onde você pode explorar novas aventuras, desenvolver sua criatividade, melhorar suas habilidades interpessoais e fortalecer o trabalho em equipe. Aqui, além de se divertir, você encontra uma comunidade acolhedora que valoriza a diversidade e o aprendizado conjunto. Venha fazer parte dessa jornada!",
+    "coordenadores": [
+      {
+        "nome": "Rafael Ivo",
+        "categoria": "Professor",
+        "foto": "/img/ivo.jpg"
+      },
+      {
+        "nome": "Maria Clara",
+        "categoria": "Aluna",
+        "foto": "/img/ivo.jpg"
+      }
+    ],
+    "imagemPrincipal": "/img/inovalejr.png",
+    "galeria": [
+      "/img/inovalejr.png",
+      "/img/inovalejr.png",
+      "/img/inovalejr.png",
+      "/img/inovalejr.png"
+    ],
     "links": {
-      "instagram": "https://instagram.com/comptechjr"
+      "instagram": "https://www.instagram.com/forronocampus.ufcrussas/"
     }
   },
   {
     "id": 7,
-    "nome": "Semana da Computação",
-    "tipo": "Evento",
-    "curso": "Ciência da Computação",
-    "descricao": "Evento anual com palestras, minicursos e competições de programação.",
-    "coordenador": "Profa. Laura Mendes",
-    "imagemPrincipal": "/img/secomp.jpg",
-    "galeria": [],
-    "links": {}
+    "nome": "Redescobrindo os Clássicos",
+    "tipo": "Cultural",
+    "curso": [
+      "Engenharia de Software",
+      "Ciência da Computação",
+      "Engenharia de Produção",
+      "Engenharia Civil",
+      "Engenharia Mecânica"
+    ],
+    "descricao": "O projeto tem como objetivo abordar clássicos da literatura, pois são obras atemporais, obras que continuam conversando com nós até hoje, que chegam até nós trazendo consigo as marcas das leituras que precederam a nossa cultura e os traços que deixaram e isso instiga a nós entendermos quem somos e aonde chegamos. A sua participação é fundamental para o projeto, tanto para expandir a ideia como isso lhe trará vantagens como o desenvolvimento ao incentivo à leitura, troca de experiências entre os leitores e a saída da zona de conforto.",
+    "coordenadores": [
+      {
+        "nome": "Rafael Ivo",
+        "categoria": "Professor",
+        "foto": "/img/ivo.jpg"
+      },
+      {
+        "nome": "Maria Clara",
+        "categoria": "Aluna",
+        "foto": "/img/ivo.jpg"
+      }
+    ],
+    "imagemPrincipal": "/img/inovalejr.png",
+    "galeria": [
+      "/img/inovalejr.png",
+      "/img/inovalejr.png",
+      "/img/inovalejr.png",
+      "/img/inovalejr.png"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/forronocampus.ufcrussas/"
+    }
   },
   {
     "id": 8,
-    "nome": "HackaComp",
-    "tipo": "Evento",
-    "curso": "Ciência da Computação",
-    "descricao": "Hackathon universitário para desenvolver soluções tecnológicas em 48h.",
-    "coordenador": "Prof. Igor Almeida",
-    "imagemPrincipal": "/img/hackacomp.jpg",
-    "galeria": [],
-    "links": {}
+    "nome": "Palavras do Jaguaribe",
+    "tipo": "Cultural",
+    "curso": [
+      "Engenharia de Software",
+      "Ciência da Computação",
+      "Engenharia de Produção",
+      "Engenharia Civil",
+      "Engenharia Mecânica"
+    ],
+    "descricao": "Você conhece os poetas do Vale do Jaguaribe? Imagine crescer cercado por histórias, repentes, cordéis e músicas, mas nunca ouvir falar de quem criou tudo isso. É isso que acontece com muitos artistas do Vale do Jaguaribe. Vamos mudar isso? Nosso projeto quer dar voz a esses nomes e preservar suas obras, pois, embora o Vale seja um verdadeiro celeiro de cultura popular, muitos escritores, poetas e repentistas da região ainda são invisíveis. Mais que um projeto, é um resgate de memória. O que a gente vai fazer na prática é ler uma obra por mês de autores do Vale, pesquisar suas histórias e trajetórias, e produzir resenhas para compartilhar nas redes. Tudo isso com um único foco: espalhar a força da literatura jaguaribana.",
+    "coordenadores": [
+      {
+        "nome": "Rafael Ivo",
+        "categoria": "Professor",
+        "foto": "/img/ivo.jpg"
+      },
+      {
+        "nome": "Maria Clara",
+        "categoria": "Aluna",
+        "foto": "/img/ivo.jpg"
+      }
+    ],
+    "imagemPrincipal": "/img/inovalejr.png",
+    "galeria": [
+      "/img/inovalejr.png",
+      "/img/inovalejr.png",
+      "/img/inovalejr.png",
+      "/img/inovalejr.png"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/forronocampus.ufcrussas/"
+    }
   },
-
   {
     "id": 9,
     "nome": "SoftArt",
@@ -123,7 +304,7 @@
   {
     "id": 11,
     "nome": "SoftTech Jr.",
-    "tipo": "Empresa Júnior",
+    "tipo": "Evento",
     "curso": "Engenharia de Software",
     "descricao": "Empresa júnior focada em desenvolvimento de sistemas personalizados.",
     "coordenador": "Profa. Amanda Torres",
@@ -134,7 +315,7 @@
   {
     "id": 12,
     "nome": "CodeWorks",
-    "tipo": "Empresa Júnior",
+    "tipo": "Evento",
     "curso": "Engenharia de Software",
     "descricao": "Empresa júnior que atua com consultoria em qualidade de software.",
     "coordenador": "Prof. Felipe Araújo",
@@ -155,14 +336,34 @@
   },
   {
     "id": 14,
-    "nome": "Workshop de Engenharia de Software",
-    "tipo": "Evento",
-    "curso": "Engenharia de Software",
-    "descricao": "Encontro de estudantes e profissionais da área para troca de experiências.",
-    "coordenador": "Prof. Gustavo Lima",
-    "imagemPrincipal": "/img/wesoft.jpg",
-    "galeria": [],
-    "links": {}
+    "nome": "Include Jr",
+    "tipo": "Empresa Júnior",
+    "curso": ["Engenharia de Software", "Ciência da Computação"],
+    "descricao": "A Include jr é uma empresa júnior dos cursos de Engenharia de Software e Ciência da Computação do campus de Russas da Universidade Federal do Ceará. Fundada em 2018 e gerida unicamente por estudantes desses cursos, a empresa atua na área de Tecnologia da Informação, oferecendo serviços que sanem as dores dos seus clientes, otimizando seus processos e melhorando a sua colocação nas áreas em que atuam. Entre os serviços oferecidos pela Include Jr. estão: Consultoria Individual, Desenvolvimento de Software, Desenvolvimento de Websites e Criação de Apps.",
+    "coordenadores": [
+      {
+        "nome": "Rafael Ivo",
+        "categoria": "Professor",
+        "foto": "/img/ivo.jpg"
+      },
+      {
+        "nome": "Maria Clara",
+        "categoria": "Aluna",
+        "foto": "/img/ivo.jpg"
+      }
+    ],
+    "imagemPrincipal": "/img/inovalejr.png",
+    "galeria": [
+      "/img/inovalejr.png",
+      "/img/inovalejr.png",
+      "/img/inovalejr.png",
+      "/img/inovalejr.png"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/includejr/",
+      "website": "https://www.inovalejr.com.br/empresa/",
+      "linkedin": "https://www.linkedin.com/company/include-jr/?originalSubdomain=br"
+    }
   },
   {
     "id": 15,
@@ -197,14 +398,34 @@
   },
   {
     "id": 16,
-    "nome": "Gestão em Foco",
-    "tipo": "Extensão",
-    "curso": "Engenharia de Produção",
-    "descricao": "Projeto voltado à aplicação de ferramentas de gestão em empresas locais.",
-    "coordenador": "Prof. Bruno Fernandes",
-    "imagemPrincipal": "/img/gestaoemfoco.jpg",
-    "galeria": [],
-    "links": {}
+    "nome": "Vale J",
+    "tipo": "Empresa Júnior",
+    "curso": "Engenharia Mecânica",
+    "descricao": "A Vale J é uma Empresa Júnior vinculada à Universidade Federal do Ceará – Campus de Russas, formada por estudantes comprometidos em oferecer soluções técnicas e inovadoras na área da engenharia e arquitetura. Entre os principais serviços prestados pela ValeJ estão o levantamento arquitetônico, orçamento de obras, projetos elétricos, usucapião (com levantamento planimétrico) e cursos de capacitação voltados à formação prática e profissional. Com foco na qualidade, aprendizado e impacto social, a ValeJ busca aproximar o ambiente acadêmico do mercado, promovendo experiências reais de trabalho, desenvolvimento técnico e crescimento pessoal para seus membros e clientes.",
+    "coordenadores": [
+      {
+        "nome": "Rafael Ivo",
+        "categoria": "Professor",
+        "foto": "/img/ivo.jpg"
+      },
+      {
+        "nome": "Maria Clara",
+        "categoria": "Aluna",
+        "foto": "/img/ivo.jpg"
+      }
+    ],
+    "imagemPrincipal": "/img/inovalejr.png",
+    "galeria": [
+      "/img/inovalejr.png",
+      "/img/inovalejr.png",
+      "/img/inovalejr.png",
+      "/img/inovalejr.png"
+    ],
+    "links": {
+      "instagram": "https://instagram.com/inovalejr",
+      "website": "https://www.inovalejr.com.br/empresa/",
+      "linkedin": "https://www.linkedin.com/company/inovale-jr/"
+    }
   },
   {
     "id": 17,
@@ -232,7 +453,7 @@
   {
     "id": 19,
     "nome": "Mec Jr.",
-    "tipo": "Empresa Júnior",
+    "tipo": "Evento",
     "curso": "Engenharia Mecânica",
     "descricao": "Empresa júnior especializada em projetos mecânicos e manutenção.",
     "coordenador": "Prof. Ricardo Nunes",
@@ -277,7 +498,7 @@
   {
     "id": 23,
     "nome": "Civ Jr.",
-    "tipo": "Empresa Júnior",
+    "tipo": "Evento",
     "curso": "Engenharia Civil",
     "descricao": "Empresa júnior voltada para projetos de infraestrutura e edificações.",
     "coordenador": "Prof. João Almeida",
