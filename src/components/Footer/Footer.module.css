@@ -36,7 +36,7 @@
 
 .logoArea p {
   font-size: 0.9rem;
-  opacity: 0.9;
+  color: var(--cor-bg);
   line-height: 1.4;
 }
 

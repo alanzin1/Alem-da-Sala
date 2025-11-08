@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "nome": "Agentes de Cultura",
+    "nome": "Agentes da Cultura",
     "tipo": "Cultural",
     "curso": [
       "Engenharia de Software",
@@ -23,7 +23,7 @@
         "foto": "/img/ivo.jpg"
       }
     ],
-    "imagemPrincipal": "/img/inovalejr.png",
+    "imagemPrincipal": "/img/agentes_da_cultura.png",
     "galeria": [
       "/img/inovalejr.png",
       "/img/inovalejr.png",
@@ -58,7 +58,7 @@
         "foto": "/img/ivo.jpg"
       }
     ],
-    "imagemPrincipal": "/img/inovalejr.png",
+    "imagemPrincipal": "/img/clube_do_improviso.png",
     "galeria": [
       "/img/inovalejr.png",
       "/img/inovalejr.png",
@@ -93,7 +93,7 @@
         "foto": "/img/ivo.jpg"
       }
     ],
-    "imagemPrincipal": "/img/inovalejr.png",
+    "imagemPrincipal": "/img/LabSoci.png",
     "galeria": [
       "/img/inovalejr.png",
       "/img/inovalejr.png",
@@ -128,7 +128,7 @@
         "foto": "/img/ivo.jpg"
       }
     ],
-    "imagemPrincipal": "/img/inovalejr.png",
+    "imagemPrincipal": "/img/forronocampus.png",
     "galeria": [
       "/img/inovalejr.png",
       "/img/inovalejr.png",
@@ -163,7 +163,7 @@
         "foto": "/img/ivo.jpg"
       }
     ],
-    "imagemPrincipal": "/img/inovalejr.png",
+    "imagemPrincipal": "/img/glam.png",
     "galeria": [
       "/img/inovalejr.png",
       "/img/inovalejr.png",
@@ -198,7 +198,7 @@
         "foto": "/img/ivo.jpg"
       }
     ],
-    "imagemPrincipal": "/img/inovalejr.png",
+    "imagemPrincipal": "/img/unirpg.png",
     "galeria": [
       "/img/inovalejr.png",
       "/img/inovalejr.png",
@@ -268,7 +268,7 @@
         "foto": "/img/ivo.jpg"
       }
     ],
-    "imagemPrincipal": "/img/inovalejr.png",
+    "imagemPrincipal": "/img/palavras_do_jaguaribe.png",
     "galeria": [
       "/img/inovalejr.png",
       "/img/inovalejr.png",
@@ -303,34 +303,44 @@
   },
   {
     "id": 11,
-    "nome": "SoftTech Jr.",
+    "nome": "SESCOMP",
     "tipo": "Evento",
-    "curso": "Engenharia de Software",
-    "descricao": "Empresa júnior focada em desenvolvimento de sistemas personalizados.",
+    "curso": ["Ciência da Computação", "Engenharia de Software"],
+    "descricao": "A Semana de Engenharia de Software e Ciência da Computação (SESCOMP) é um evento anual da Universidade Federal do Ceará (UFC) no Campus de Russas, que reúne estudantes, professores e profissionais em torno da tecnologia. Durante uma semana, ocorrem palestras, workshops e debates que criam um espaço perfeito para aprender, trocar ideias, inovar e se conectar com a comunidade da área de tecnologia.",
     "coordenador": "Profa. Amanda Torres",
-    "imagemPrincipal": "/img/softtechjr.jpg",
+    "imagemPrincipal": "/img/sescomp.png",
     "galeria": [],
     "links": {}
   },
   {
     "id": 12,
-    "nome": "CodeWorks",
+    "nome": "SER",
     "tipo": "Evento",
-    "curso": "Engenharia de Software",
-    "descricao": "Empresa júnior que atua com consultoria em qualidade de software.",
+    "curso": [
+      "Engenharia Civil",
+      "Engenharia de Produção",
+      "Engenharia Mecânica"
+    ],
+    "descricao": "A Semana das Engenharias de Russas (SER) é um evento acadêmico que ocorre anualmente na Universidade Federal do Ceará, Campus Russas. O evento reúne estudantes e profissionais das áreas de Engenharia de Produção, Engenharia Mecânica, Engenharia Civil, Empreendedorismo, Inovação, Ciências e Tecnologia. A programação inclui palestras, minicursos, workshops e atividades práticas, visando capacitar pessoas, estimular a inovação e abrir novas perspectivas. O evento é gratuito e oferece uma oportunidade para que os participantes aprendam e se conectem com o ambiente profissional.",
     "coordenador": "Prof. Felipe Araújo",
-    "imagemPrincipal": "/img/codeworks.jpg",
+    "imagemPrincipal": "/img/ser.png",
     "galeria": [],
     "links": {}
   },
   {
     "id": 13,
-    "nome": "PET Software",
-    "tipo": "Extensão",
-    "curso": "Engenharia de Software",
-    "descricao": "Grupo de estudos que promove oficinas e mentorias sobre boas práticas de desenvolvimento.",
+    "nome": "Encontros Universitários",
+    "tipo": "Evento",
+    "curso": [
+      "Ciência da Computação",
+      "Engenharia Civil",
+      "Engenharia de Produção",
+      "Engenharia de Software",
+      "Engenharia Mecânica"
+    ],
+    "descricao": "Os Encontros Universitários da UFC em Russas são eventos acadêmicos, artísticos e culturais que promovem a integração e a troca de experiências entre estudantes, docentes e a comunidade. O evento abrange diversas áreas, como iniciação científica, pesquisa e práticas educacionais. Durante os três dias, haverá apresentações de trabalhos, palestras, oficinas e atividades culturais gratuitas, visando fortalecer conexões e ampliar o aprendizado. ",
     "coordenador": "Profa. Vanessa Silva",
-    "imagemPrincipal": "/img/petsoftware.jpg",
+    "imagemPrincipal": "/img/encontros_universitarios.png",
     "galeria": [],
     "links": {}
   },
@@ -352,7 +362,7 @@
         "foto": "/img/ivo.jpg"
       }
     ],
-    "imagemPrincipal": "/img/inovalejr.png",
+    "imagemPrincipal": "/img/includejr.png",
     "galeria": [
       "/img/inovalejr.png",
       "/img/inovalejr.png",
@@ -429,12 +439,18 @@
   },
   {
     "id": 17,
-    "nome": "Semana da Produção",
+    "nome": "Feira das Profissões",
     "tipo": "Evento",
-    "curso": "Engenharia de Produção",
-    "descricao": "Evento anual com palestras e minicursos sobre engenharia de produção.",
+    "curso": [
+      "Ciência da Computação",
+      "Engenharia Civil",
+      "Engenharia de Produção",
+      "Engenharia de Software",
+      "Engenharia Mecânica"
+    ],
+    "descricao": "A Feira das Profissões da UFC no campus de Russas é um evento que oferece uma oportunidade única para que estudantes de escolas de todo o Vale do Jaguaribe conheçam os cursos e projetos da universidade. A programação incluirá palestras, testes vocacionais e aulas práticas, visando promover a aproximação dos estudantes do ensino médio com o ambiente universitário e ajudar na escolha de suas futuras carreiras acadêmicas e profissionais.",
     "coordenador": "Profa. Lúcia Moreira",
-    "imagemPrincipal": "/img/semapro.jpg",
+    "imagemPrincipal": "/img/feira_das_profissoes.png",
     "galeria": [],
     "links": {}
   },
@@ -463,12 +479,12 @@
   },
   {
     "id": 20,
-    "nome": "PET Mecânica",
+    "nome": "Ares",
     "tipo": "Extensão",
-    "curso": "Engenharia Mecânica",
-    "descricao": "Grupo de extensão focado em pesquisa e inovação em sistemas mecânicos.",
+    "curso": ["Ciência da Computação", "Engenharia de Software"],
+    "descricao": "Bem-vindos ao Projeto ARES — Análises de Riscos e Estratégias de Segurança da Informação! Somos um grupo de Pesquisa e Extensão dedicado às áreas de Segurança da Informação e Computação Forense, com o propósito de fortalecer o conhecimento e a atuação nessa área tão essencial para o mundo digital. Nosso objetivo é fomentar a pesquisa, promover a conscientização e contribuir para a formação de novos profissionais comprometidos com a proteção de dados e sistemas. Venha construir um futuro mais seguro com a gente!",
     "coordenador": "Profa. Clara Vieira",
-    "imagemPrincipal": "/img/petmecanica.jpg",
+    "imagemPrincipal": "/img/ares.png",
     "galeria": [],
     "links": {}
   },

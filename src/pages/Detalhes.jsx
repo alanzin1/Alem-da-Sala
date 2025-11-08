@@ -18,8 +18,7 @@ export default function Detalhes() {
     return <p>Projeto não encontrado.</p>;
   }
 
-  const { nome, descricao, coordenadores, imagemPrincipal, galeria, links } =
-    projeto;
+  const { nome, descricao, coordenadores, imagemPrincipal, links } = projeto;
 
   return (
     <div className={styles.container}>
@@ -65,18 +64,6 @@ export default function Detalhes() {
               </div>
             ))}
           </section>
-        </section>
-      )}
-
-      {/* Galeria */}
-      {galeria && galeria.length > 0 && (
-        <section className={styles.galeria}>
-          <h2>Galeria</h2>
-          <div className={styles.galeriaGrid}>
-            {galeria.map((img, index) => (
-              <img key={index} src={img} alt={`Imagem ${index}`} />
-            ))}
-          </div>
         </section>
       )}
 
