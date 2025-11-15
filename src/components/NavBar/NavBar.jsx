@@ -2,8 +2,8 @@ import styles from "./NavBar.module.css";
 
 export default function NavBar({ tags, selectedTags, onFilterChange }) {
   const handleTagClick = (e, tag) => {
-    e.preventDefault(); // previne comportamento estranho no mobile
-    e.stopPropagation(); // evita conflito com outros listeners
+    e.preventDefault();
+    e.stopPropagation();
 
     if (tag === "Todos") {
       onFilterChange(["Todos"]);

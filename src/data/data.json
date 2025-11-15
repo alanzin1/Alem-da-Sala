@@ -281,26 +281,33 @@
   },
   {
     "id": 9,
-    "nome": "SoftArt",
-    "tipo": "Cultural",
-    "curso": "Engenharia de Software",
-    "descricao": "Grupo que une arte digital e programação criativa.",
-    "coordenador": "Profa. Júlia Tavares",
-    "imagemPrincipal": "/img/softart.jpg",
+    "nome": "LearningLab",
+    "tipo": "Extensão",
+    "curso": ["Engenharia de Software", "Ciência da Computação"],
+    "descricao": "O objetivo deste projeto de extensão é contribuir para o processo de formação dos estudantes dos cursos de Ciência da Computação e Engenharia de Software da UFC no Campus de Russas através de uma aprendizagem significativa (para além da sala de aula) e multidisciplinar (que envolva os mais variados departamentos, áreas e setores). Este projeto irá contribuir com o desenvolvimento de recursos humanos especializados em tecnologias de apoio a gestão do conhecimento, fatores de influência para gestão do conhecimento e técnicas de ensino aprendizagem. Além disso, pretende-se obter resultados esperados relacionados aos seguintes objetivos específicos: (a) identificação de abordagens de ensino de Engenharia de Software e Gestão do Conhecimento; (b) desenvolvimento e/ou adaptação de métodos e modelos de ensino voltados para gestão do conhecimento; (c) desenvolvimento de estratégias para divulgar as áreas de Computação no Estado do Ceará; (d) fomento de interesse de alunos para divulgar as áreas de Computação no Estado do Ceará; e (e) condução de ensinos voltados para os alunos de Computação do Estado do Ceará visando contribuir na formação de recursos humanos. O presente projeto tem o intuito de alavancar a área de Computação na Região Nordeste do Brasil, auxiliando na aquisição dos conhecimentos necessários para a inserção dos futuros profissionais no mercado de trabalho com os conhecimentos adquiridos no Ensino Superior.",
+    "coordenador": "Prof. Henrique Souza",
+    "imagemPrincipal": "/img/learninglab.png",
     "galeria": [],
     "links": {}
   },
   {
     "id": 10,
-    "nome": "DevSound",
-    "tipo": "Cultural",
-    "curso": ["Engenharia de Software", "Ciência da Computação"],
-    "descricao": "Coletivo de estudantes que produzem música eletrônica e trilhas sonoras.",
-    "coordenador": "Prof. Henrique Souza",
-    "imagemPrincipal": "/img/devsound.jpg",
+    "nome": "TOP",
+    "tipo": "Extensão",
+    "curso": [
+      "Engenharia de Software",
+      "Ciência da Computação",
+      "Engenharia Civil",
+      "Engenharia de Produção",
+      "Engenharia Mecânica"
+    ],
+    "descricao": "O projeto TOP é uma iniciativa de extensão que visa capacitar estudantes nas áreas de comunicação e marketing. O projeto é vinculado à Coordenação de Comunicação e Produção Cultural do Campus da UFC e tem como objetivo principal auxiliar a Coordenação nas demandas do dia-a-dia, oferecendo suporte à realização de atividades e melhorias nos fluxos de comunicação do campus. Os bolsistas voluntários desempenham trabalhos de comunicação interna, planejamento de marketing, publicidade, criação de peças gráficas, cobertura fotográfica, assessoria de imprensa e produção de eventos. O projeto também busca trabalhar com a sociedade, através da realização de percursos formativos e de capacitação nas áreas do marketing e da comunicação social, desenvolvendo o caráter extensionista do projeto e atuando com a comunidade local.",
+    "coordenador": "Profa. Júlia Tavares",
+    "imagemPrincipal": "/img/top.png",
     "galeria": [],
     "links": {}
   },
+
   {
     "id": 11,
     "nome": "SESCOMP",
@@ -408,7 +415,7 @@
   },
   {
     "id": 16,
-    "nome": "Vale J",
+    "nome": "Vale J Jr",
     "tipo": "Empresa Júnior",
     "curso": "Engenharia Mecânica",
     "descricao": "A Vale J é uma Empresa Júnior vinculada à Universidade Federal do Ceará – Campus de Russas, formada por estudantes comprometidos em oferecer soluções técnicas e inovadoras na área da engenharia e arquitetura. Entre os principais serviços prestados pela ValeJ estão o levantamento arquitetônico, orçamento de obras, projetos elétricos, usucapião (com levantamento planimétrico) e cursos de capacitação voltados à formação prática e profissional. Com foco na qualidade, aprendizado e impacto social, a ValeJ busca aproximar o ambiente acadêmico do mercado, promovendo experiências reais de trabalho, desenvolvimento técnico e crescimento pessoal para seus membros e clientes.",
@@ -424,13 +431,8 @@
         "foto": "/img/ivo.jpg"
       }
     ],
-    "imagemPrincipal": "/img/inovalejr.png",
-    "galeria": [
-      "/img/inovalejr.png",
-      "/img/inovalejr.png",
-      "/img/inovalejr.png",
-      "/img/inovalejr.png"
-    ],
+    "imagemPrincipal": "/img/valejjr.png",
+
     "links": {
       "instagram": "https://instagram.com/inovalejr",
       "website": "https://www.inovalejr.com.br/empresa/",
@@ -456,24 +458,36 @@
   },
   {
     "id": 18,
-    "nome": "Produção e Arte",
-    "tipo": "Cultural",
-    "curso": "Engenharia de Produção",
-    "descricao": "Projeto cultural que integra design e produção sustentável.",
+    "nome": "Aprova UFC",
+    "tipo": "Extensão",
+    "curso": [
+      "Ciência da Computação",
+      "Engenharia de Software",
+      "Engenharia Civil",
+      "Engenharia de Produção",
+      "Engenharia Mecânica"
+    ],
+    "descricao": "O projeto APROVA UFC Tem como principal objetivo aprimorar o nível de preparação dos estudantes das escolas públicas que realizarão o vestibular ENEM. O projeto surgiu no ano de 2016, com o intuito de contribuir na preparação de estudantes de escolas públicas do vale do Jaguaribe, com intuito de aumentar o percentual de aprovação no Exame Nacional de Escolas do Ensino Médio. Desta maneira, foram realizados aulas presenciais com aulas de matemática, física e química, objetivando maiores resultados. Com isso, ainda no primeiro ano de projeto, foi conseguida a aprovação de quatorze dos 24 participantes do curso. Onde oito foram aprovados na Universidade Federal do Ceará Campus Russas, três obtiveram aprovação na Universidade Federal Rural do Semiárido (UFERSA), dois conseguiram aprovação na Universidade Estadual do Rio Grande do Norte (UERN), e um obteve aprovação na Universidade Potiguar (UNP). No ano de 2017 o Aprova UFC tornou-se um curso de extensão cadastrado na PREX, visando contribuir de forma mais direta no município de Russas. Com isso o projeto passou a contar com aulas diárias durante todo o ano, compreendendo todas as áreas do conhecimento (exceto geografia, língua estrangeira e sociologia). Foram realizados simulados para adaptação do aluno a prova do ENEM.",
     "coordenador": "Profa. Aline Rocha",
-    "imagemPrincipal": "/img/prodarte.jpg",
+    "imagemPrincipal": "/img/aprovaufc.png",
     "galeria": [],
     "links": {}
   },
 
   {
     "id": 19,
-    "nome": "Mec Jr.",
-    "tipo": "Evento",
-    "curso": "Engenharia Mecânica",
-    "descricao": "Empresa júnior especializada em projetos mecânicos e manutenção.",
+    "nome": "GDS",
+    "tipo": "Extensão",
+    "curso": [
+      "Ciência da Computação",
+      "Engenharia de Software",
+      "Engenharia Civil",
+      "Engenharia de Produção",
+      "Engenharia Mecânica"
+    ],
+    "descricao": "O Grupo de Desenvolvimento em Sustentabilidade (GDS) é um Projeto de Extensão da Universidade Federal do Ceará - Campus Russas. Formado por discentes, docentes e servidores, o grupo desenvolve ações dentro da tríade da sustentabilidade, com o intuito de promover o desenvolvimento sustentável não só no meio acadêmico, mas em todo o Vale do Jaguaribe. O projeto atua em três áreas: ambiental, social e mídias sociais.",
     "coordenador": "Prof. Ricardo Nunes",
-    "imagemPrincipal": "/img/mecjr.jpg",
+    "imagemPrincipal": "/img/gds.png",
     "galeria": [],
     "links": {}
   },
@@ -490,68 +504,141 @@
   },
   {
     "id": 21,
-    "nome": "AutoFest",
-    "tipo": "Evento",
-    "curso": "Engenharia Mecânica",
-    "descricao": "Exposição de projetos automotivos e competições de protótipos.",
-    "coordenador": "Prof. Eduardo Rocha",
-    "imagemPrincipal": "/img/autofest.jpg",
+    "nome": "PROGETE",
+    "tipo": "Extensão",
+    "curso": ["Ciência da Computação", "Engenharia de Software"],
+    "descricao": "O PROGETE (Programa de Ensino e Troca de Experiências) da Universidade Federal do Ceará – Campus Russas integra atividades de ensino, pesquisa e extensão. O projeto busca ampliar os conhecimentos trabalhados nos cursos de Engenharia de Software e Ciência da Computação, abordando também temas de relevância social, como saúde e educação. Seu objetivo é aproximar a comunidade, compreender suas necessidades e promover a troca de experiências. A participação da população é fundamental para alcançar bons resultados e desenvolver soluções que atendam às demandas compartilhadas. Compartilhar a iniciativa contribui para ampliar o engajamento comunitário.",
+    "coordenadores": [
+      {
+        "nome": "Patricia Vasconcelos",
+        "categoria": "Professora",
+        "foto": "/img/patricia_vasconcelos.png"
+      }
+    ],
+    "imagemPrincipal": "/img/PROGETE.png",
     "galeria": [],
     "links": {}
   },
   {
     "id": 22,
-    "nome": "MetalArte",
-    "tipo": "Cultural",
-    "curso": "Engenharia Mecânica",
+    "nome": "NERDS",
+    "tipo": "Extensão",
+    "curso": ["Ciência da Computação", "Engenharia de Software"],
     "descricao": "Projeto que une engenharia e escultura em metal reciclado.",
-    "coordenador": "Profa. Tânia Ribeiro",
-    "imagemPrincipal": "/img/metalarte.jpg",
+    "coordenadores": [
+      {
+        "nome": "Marcos Vinicius",
+        "categoria": "Professor",
+        "foto": "/img/marcos_vinicius.png"
+      }
+    ],
+    "imagemPrincipal": "/img/NERDS.png",
     "galeria": [],
     "links": {}
   },
 
   {
     "id": 23,
-    "nome": "Civ Jr.",
-    "tipo": "Evento",
+    "nome": "Filhas de Edwiges",
+    "tipo": "Extensão",
     "curso": "Engenharia Civil",
-    "descricao": "Empresa júnior voltada para projetos de infraestrutura e edificações.",
+    "descricao": "O projeto Filhas de Edwiges tem o intuito de fortalecer a participação feminina no curso de Engenharia Civil da UFC, campus de Russas. O nome do projeto é uma homenagem a Edwiges Becker, a primeira mulher a se formar em Engenharia Civil no Brasil. Dessa forma, o projeto faz parte de uma iniciativa para incentivar a presença de mulheres nos cursos de exatas e mostrar que a Engenharia Civil também é lugar de mulher.",
     "coordenador": "Prof. João Almeida",
-    "imagemPrincipal": "/img/civjr.jpg",
+    "imagemPrincipal": "/img/filhas_de_edwiges.png",
     "galeria": [],
     "links": {}
   },
   {
     "id": 24,
-    "nome": "PET Civil",
+    "nome": "Aratinga Aerodesign",
     "tipo": "Extensão",
-    "curso": "Engenharia Civil",
-    "descricao": "Grupo que desenvolve projetos de extensão em sustentabilidade e urbanismo.",
+    "curso": "Engenharia Mecânica",
+    "descricao": "A Equipe Aratinga Aerodesign tem como objetivo principal, desenvolver seus alunos com visão crítica de projeto, capacidade de pesquisa, desenvolvimento de lideranças, e como consequência deste trabalho, garantir vaga na competição SAE Brasil Aerodesign do corrente ano através do desenvolvimento de um projeto consistente de aeromodelos capazes de realizar manobras com ou sem carga. Serão realizadas reuniões para estudo e desenvolvimento do projeto, com o uso de softwares e materiais adquiridos para sua devida construção. Para participar da equipe serão requeridas características como dedicação, empenho e foco no trabalho, para que ele seja bem-sucedido, podendo haver penalidades para estudantes que integram a equipe, por não se mostram presentes no trabalho desenvolvido. Tem-se como ideia principal: estimular o caráter criativo e investigativo, desenvolver disciplina, responsabilidade acadêmica e social em cada integrante participante.",
     "coordenador": "Profa. Patrícia Barros",
-    "imagemPrincipal": "/img/petcivil.jpg",
+    "imagemPrincipal": "/img/aratinga_aerodesign.png",
     "galeria": [],
     "links": {}
   },
   {
     "id": 25,
-    "nome": "Semana da Engenharia Civil",
-    "tipo": "Evento",
-    "curso": "Engenharia Civil",
-    "descricao": "Evento que reúne palestras e exposições sobre inovação na construção civil.",
+    "nome": "PAE",
+    "tipo": "Extensão",
+    "curso": ["Ciência da Computação", "Engenharia de Software"],
+    "descricao": "Esta ação de extensão visa promover conhecimentos sobre desenvolvimento de sistemas aos estudantes da educação básica das escolas públicas de Russas. Esses estudantes serão capacitados por graduandos dos cursos de ciência da computação e engenharia de software da UFC de Russas. A ideia é que inicialmente os alunos da educação básica sejam capacitados e que posteriormente esses alunos possam participar de atividades relacionadas ao projeto, desenvolvimento, teste e implantação de uma solução de software voltada para a comunidade acadêmica como forma de praticar os conhecimentos adquiridos. A ação também promoverá a integração da comunidade local com a comunidade acadêmica e será um instrumento de divulgação do Campus de Russas da Universidade Federal do Ceará.",
     "coordenador": "Prof. Sérgio Lima",
-    "imagemPrincipal": "/img/secivil.jpg",
+    "imagemPrincipal": "/img/pae.png",
     "galeria": [],
     "links": {}
   },
   {
     "id": 26,
-    "nome": "Arte Concreta",
-    "tipo": "Cultural",
-    "curso": "Engenharia Civil",
-    "descricao": "Projeto artístico que utiliza materiais de construção em esculturas.",
+    "nome": "NutriCom",
+    "tipo": "Extensão",
+    "curso": [
+      "Ciência da Computação",
+      "Engenharia de Software",
+      "Engenharia Civil",
+      "Engenharia Mecânica",
+      "Engenharia de Produção"
+    ],
+    "descricao": "O NutriCom é um projeto de extensão da UFC - Campus Russas, criado para informar e envolver a comunidade acadêmica e os residentes do Vale do Jaguaribe. Nosso objetivo é democratizar o conhecimento sobre nutrição, promovendo conteúdo relevante e incentivando o engajamento para o bem-estar coletivo. Nossa missão é oferecer à comunidade acadêmica e local acesso a informações sobre alimentação saudável e práticas nutricionais, criando um espaço colaborativo para compartilhar e discutir conhecimentos sobre saúde alimentar de forma acessível e educativa. Nossa visão é nos tornar referência regional em comunicação sobre nutrição, impactando positivamente a saúde e o bem-estar da comunidade acadêmica e local. Buscamos fornecer conteúdo de qualidade, criando um espaço contínuo de aprendizagem sobre saúde alimentar.",
     "coordenador": "Profa. Bianca Alves",
-    "imagemPrincipal": "/img/arteconcreta.jpg",
+    "imagemPrincipal": "/img/nutricom.png",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 27,
+    "nome": "Centro Acadêmico Ada Lovelace",
+    "tipo": "Centro Acadêmico",
+    "curso": "Ciência da Computação",
+    "descricao": "O Centro Acadêmico Ada Lovelace é a entidade estudantil que representa os alunos do curso de Ciência da Computação da UFC – Campus de Russas. Formado por estudantes, o CAAL atua na organização de atividades acadêmicas, culturais e de integração, além de servir como ponte entre os discentes e a coordenação do curso. Seu objetivo é fortalecer a comunidade estudantil, promover debates, apoiar iniciativas de bem-estar e incentivar a participação dos alunos na vida universitária. Inspirado na pioneira Ada Lovelace, o centro busca valorizar a história da computação e estimular o protagonismo estudantil dentro do campus.",
+    "coordenador": "Profa. Bianca Alves",
+    "imagemPrincipal": "/img/centro_academico_ada_lovelace.png",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 28,
+    "nome": "Centro Acadêmico Margaret Hamilton",
+    "tipo": "Centro Acadêmico",
+    "curso": "Engenharia de Software",
+    "descricao": "O Centro Acadêmico Ada Lovelace é a entidade estudantil que representa os alunos do curso de Ciência da Computação da UFC – Campus de Russas. Formado por estudantes, o CAAL atua na organização de atividades acadêmicas, culturais e de integração, além de servir como ponte entre os discentes e a coordenação do curso. Seu objetivo é fortalecer a comunidade estudantil, promover debates, apoiar iniciativas de bem-estar e incentivar a participação dos alunos na vida universitária. Inspirado na pioneira Ada Lovelace, o centro busca valorizar a história da computação e estimular o protagonismo estudantil dentro do campus.",
+    "coordenador": "Profa. Bianca Alves",
+    "imagemPrincipal": "/img/centro_academico_margaret_hamilton.png",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 29,
+    "nome": "Centro Acadêmico de Engenharia Mecânica",
+    "tipo": "Centro Acadêmico",
+    "curso": "Engenharia Mecânica",
+    "descricao": "O CAMEC é o Centro Acadêmico que representa os estudantes de Engenharia Mecânica da UFC – Campus de Russas. Formado por alunos voluntários, ele atua como ponte entre a comunidade discente e a coordenação do curso, levando demandas, sugestões e ajudando a melhorar a experiência universitária. Além da representação estudantil, o CAMEC promove atividades acadêmicas, ações de integração e iniciativas que fortalecem o curso e aproximam os alunos. Seu papel é apoiar os estudantes, incentivar a participação e contribuir para a construção de um ambiente acadêmico mais ativo, organizado e colaborativo.",
+    "coordenador": "Profa. Bianca Alves",
+    "imagemPrincipal": "/img/camec.png",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 30,
+    "nome": "Centro Acadêmico Roberta Feijão",
+    "tipo": "Centro Acadêmico",
+    "curso": "Engenharia de Produção",
+    "descricao": "O Centro Acadêmico Ada Lovelace é a entidade estudantil que representa os alunos do curso de Ciência da Computação da UFC – Campus de Russas. Formado por estudantes, o CAAL atua na organização de atividades acadêmicas, culturais e de integração, além de servir como ponte entre os discentes e a coordenação do curso. Seu objetivo é fortalecer a comunidade estudantil, promover debates, apoiar iniciativas de bem-estar e incentivar a participação dos alunos na vida universitária. Inspirado na pioneira Ada Lovelace, o centro busca valorizar a história da computação e estimular o protagonismo estudantil dentro do campus.",
+    "coordenador": "Profa. Bianca Alves",
+    "imagemPrincipal": "/img/centro_academico_roberta_feijao.png",
+    "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 31,
+    "nome": "Centro Acadêmico Rhuan Cavalcante",
+    "tipo": "Centro Acadêmico",
+    "curso": "Engenharia Civil",
+    "descricao": "O Centro Acadêmico Ada Lovelace é a entidade estudantil que representa os alunos do curso de Ciência da Computação da UFC – Campus de Russas. Formado por estudantes, o CAAL atua na organização de atividades acadêmicas, culturais e de integração, além de servir como ponte entre os discentes e a coordenação do curso. Seu objetivo é fortalecer a comunidade estudantil, promover debates, apoiar iniciativas de bem-estar e incentivar a participação dos alunos na vida universitária. Inspirado na pioneira Ada Lovelace, o centro busca valorizar a história da computação e estimular o protagonismo estudantil dentro do campus.",
+    "coordenador": "Profa. Bianca Alves",
+    "imagemPrincipal": "/img/carc.png",
     "galeria": [],
     "links": {}
   }

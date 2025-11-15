@@ -22,6 +22,7 @@ export default function Home() {
     "Evento",
     "Empresa Júnior",
     "Extensão",
+    "Centro Acadêmico",
   ];
 
   const handleFilterChange = (updatedTags) => {
