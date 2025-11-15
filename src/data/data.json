@@ -554,9 +554,14 @@
     "tipo": "Extensão",
     "curso": "Engenharia Mecânica",
     "descricao": "A Equipe Aratinga Aerodesign tem como objetivo principal, desenvolver seus alunos com visão crítica de projeto, capacidade de pesquisa, desenvolvimento de lideranças, e como consequência deste trabalho, garantir vaga na competição SAE Brasil Aerodesign do corrente ano através do desenvolvimento de um projeto consistente de aeromodelos capazes de realizar manobras com ou sem carga. Serão realizadas reuniões para estudo e desenvolvimento do projeto, com o uso de softwares e materiais adquiridos para sua devida construção. Para participar da equipe serão requeridas características como dedicação, empenho e foco no trabalho, para que ele seja bem-sucedido, podendo haver penalidades para estudantes que integram a equipe, por não se mostram presentes no trabalho desenvolvido. Tem-se como ideia principal: estimular o caráter criativo e investigativo, desenvolver disciplina, responsabilidade acadêmica e social em cada integrante participante.",
-    "coordenador": "Profa. Patrícia Barros",
+    "coordenadores": [
+      {
+        "nome": "Edvan Cordeiro de Miranda",
+        "categoria": "Professor",
+        "foto": "/img/marcos_vinicius.png"
+      }
+    ],
     "imagemPrincipal": "/img/aratinga_aerodesign.png",
-    "galeria": [],
     "links": {}
   },
   {
@@ -640,6 +645,22 @@
     "coordenador": "Profa. Bianca Alves",
     "imagemPrincipal": "/img/carc.png",
     "galeria": [],
+    "links": {}
+  },
+  {
+    "id": 32,
+    "nome": "Iaguary Baja",
+    "tipo": "Extensão",
+    "curso": "Engenharia Mecânica",
+    "descricao": "O Projeto Iaguary Baja – UFC Russas é um desafio submetido aos alunos de engenharia que oferece a oportunidade de aplicar na prática os conhecimentos adquiridos durante sua permanência na universidade, visando incorporar características diferenciadas ao futuro profissional de engenharia. Durante sua permanência no projeto, os estudantes aprendem a lidar com um projeto de caso real, desde sua concepção aos testes de simulação e resolução de problemas. Além do projeto Baja SAE UFC – Russas, o programa visa também um melhor reconhecimento dos cursos de engenharia da universidade, bem como a diminuição da evasão de alunos ingressantes na faculdade, uma melhor complementação da formação acadêmica dos alunos e uma aproximação entre a comunidade de Russas com a UFC. Durante a vigência do projeto, será construído um acervo de material de estudos e apoio com o tema veículo off-road, para assessorar os demais integrantes que farão parte e darão prosseguimento ao Projeto Baja SAE – UFC Russas.",
+    "coordenadores": [
+      {
+        "nome": "Candido Jorge De Sousa Lobo",
+        "categoria": "Professor",
+        "foto": "/img/marcos_vinicius.png"
+      }
+    ],
+    "imagemPrincipal": "/img/iaguary_baja.png",
     "links": {}
   }
 ]
