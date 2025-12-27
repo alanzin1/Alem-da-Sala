@@ -1,10 +1,7 @@
 import styles from "./NavBar.module.css";
 
 export default function NavBar({ tags, selectedTags, onFilterChange }) {
-  const handleTagClick = (e, tag) => {
-    e.preventDefault();
-    e.stopPropagation();
-
+  const handleTagSelect = (tag) => {
     if (tag === "Todos") {
       onFilterChange(["Todos"]);
       return;
@@ -30,7 +27,7 @@ export default function NavBar({ tags, selectedTags, onFilterChange }) {
           className={`${styles.tagButton} ${
             selectedTags.includes(tag) ? styles.active : ""
           }`}
-          onClick={(e) => handleTagClick(e, tag)}
+          onPointerDown={() => handleTagSelect(tag)}
         >
           {tag}
         </button>
