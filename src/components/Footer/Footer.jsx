@@ -19,14 +19,6 @@ export default function Footer() {
           <a href="mailto:alemdasala@gmail.com" className={styles.link}>
             <FaEnvelope /> alemdasala@gmail.com
           </a>
-          <a
-            href="https://instagram.com/alemdasala"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.link}
-          >
-            <FaInstagram /> @alemdasala
-          </a>
         </div>
       </div>
 
